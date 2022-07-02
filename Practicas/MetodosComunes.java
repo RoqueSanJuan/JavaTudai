@@ -8,10 +8,16 @@ class MetodosComunes {
     public static final int MINVALOR=1;
 
     public static void main(String[] args){
-        char [] arrchar;
-        int [] arrint;
-        arrchar=new char[MAX];
-        arrint=new int[MAX];
+        char [] arrchar = new char[MAX];
+        int [] arrint = new int[MAX];
+
+
+
+        int [] prueba = new int[3] ; 
+        prueba[0] = 1;
+
+
+
         //cargar_arreglo_aleatorio_char(arrchar);
         //imprimir_arreglo_char(arrchar);        
         cargar_arreglo_aleatorio_int(arrint);
@@ -109,6 +115,13 @@ class MetodosComunes {
         }
     }
     
+    public static void Prueba(){
+        for(int i=0;i < 10 ; i++){
+            System.out.println("Hola");
+        }
+
+        
+    }
 
 
 
